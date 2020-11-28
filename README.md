@@ -1,0 +1,2 @@
+# OnlinePharmacy-TakwasPharmacy-
+We came out with a solution for this problem by discussing with one of the largest pharmacy owner and some doctors that it would be great for everyone related with health issue if  there is such a website where these characters can connect with each other and also get the medicines as prescribed. That is why we are making a website for the pharmacy owner on his call and regarding the issue where a patient can consult with a doctor, get a prescription online and mostly everyone can buy their needed medicines and pharmaceuticals.
