@@ -1,0 +1,247 @@
+body{
+	background-color: #f0f8ff;
+	color: #555555;
+	font-family: Arial, Helvetica;
+	font-size: 16px;
+	font-weight:normal;
+	line-height:1.6em;
+	margin:0;
+}
+a:hover{
+	background-color: #008080;
+	color: red;
+}
+a:active{
+	color: green;
+	background-color: #40E0D0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.containerheader{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container h1{
+	font-size: 30px;
+	text-align: center;
+	color: #333;
+}
+
+#main-header{
+	background-color: rgb(182, 172, 172);
+	color: rgb(87, 82, 82);
+}
+#main-header h1{
+	font-size: 30px;
+}
+
+#navbar{
+	background-color: rgb(218, 216, 216);
+	color: rgb(49, 47, 47);
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+#navbar li{
+	display: inline;
+	padding-left: 20px;
+}
+
+#navbar a{
+	color: rgb(32, 32, 32);
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+#showcase{
+	
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top: 30px;  
+}
+
+
+#main{
+	float: left;
+	width: 70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+#main p{
+	font-size:25px;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background:#333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box; 
+}
+#main-footer{
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 700px;
+}
+
+/* Map */
+.containermap{
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
+
+}
+.containermap h1{
+	text-align: center;
+
+}
+#mainmap-img{
+	align-content: center;
+	width: 100%;
+}
+
+
+/* Registration Form */
+.floatcenter{
+	margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    border: 5px solid grey;
+    background-color: #F0FFF0;
+}
+
+.myform-r h1{
+	display: block;
+	text-align: center;
+	font-size: 45px;
+}
+
+.myform-r{
+	padding: 20px;
+}
+.myform-r.form-group-r{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.myform-r label{
+	display: block;
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.myform-r input[type="text"],.myform-r input[type="password"],.myform-r input[type="number"],.myform-r input[type="email"], .myform-r textarea {
+	padding: 10px;
+	width:100%;
+	font-size:20px; 
+}
+.wrapper{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button-rs{
+	display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.button-rs:hover{
+	background-color: grey;
+	color: #fff;
+}
+/*-------------*/
+/* Passenger Profile*/
+.profileform{
+	text-align: center;
+}
+
+/*-------------*/
+/* Passenger Report*/
+
+.Reportform h1{
+	display: block;
+	text-align: center;
+	font-size: 45px;
+}
+
+.Reportform{
+	padding: 20px;
+}
+.Reportform.form-group-r{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.Reportform label{
+	display: block;
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.Reportform input[type="text"],.myform-r input[type="password"],.myform-r input[type="number"], .myform-r textarea {
+	padding: 10px;
+	width:100%;
+	font-size:20px; 
+}
+
+
+
+
+/* Error & Success */
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }
+.success{
+	background: orangered;
+    color: #006400;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float:none;
+	}
+	#sidebar{
+		width: 100%;
+		float:none;
+	}
+
+
+}
